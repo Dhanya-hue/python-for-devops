@@ -1,11 +1,9 @@
-# This code sample uses the 'requests' library:
-# http://docs.python-requests.org
 import requests
 from requests.auth import HTTPBasicAuth
 import json
 
 url = "https://dhanyaanchan17.atlassian.net//rest/api/3/issue"
-
+API_TOKEN="ATATT3xFfGF0X2IQvz8HRshIytbHxVcENE3_HEdEG4xscsvg_1dtrCNUj4mgE7Ry35unxELxDCdCa8C0tKxvYCtVD2qVLOWcCOXFlPNRW9_3wUplhEM_0l_rRnN2Ry49ZuyKwFG8r-DzKL-0bE7gHH0JR7HBubLudWkrvpeCcOEI9SQofGsrH8E=D6A61E1D"
 auth = HTTPBasicAuth("dhanya.anchan17@gmail.com", API_TOKEN)
 
 headers = {
